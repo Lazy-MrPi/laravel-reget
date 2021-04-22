@@ -1,33 +1,14 @@
 {
-    "name": "overlu/laravel-reget",
-    "description": "laravel server register in nacos or other",
+    "name": "edz/laravel-reget",
+    "description": "copy overlu/laravel-reget",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "lupeng",
-            "email": "lupeng.me@gmail.com"
+            "name": "MrPi",
+            "email": "pimingqiang@vip.qq.com"
         }
     ],
-    "require": {
-        "php": "^7.2",
-        "guzzlehttp/guzzle": "^6.4",
-        "ext-json": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Overlu\\Reget\\": "src/"
-        },
-        "classmap": [
-        ],
-        "files": [
-        ]
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Overlu\\Reget\\RegetServiceProvider"
-            ]
-        }
-    }
+    "minimum-stability": "dev",
+    "require": {}
 }
