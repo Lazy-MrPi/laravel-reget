@@ -14,5 +14,20 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "ext-json": "*"
     },
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "Overlu\\Reget\\": "src/"
+        },
+        "classmap": [
+        ],
+        "files": [
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overlu\\Reget\\RegetServiceProvider"
+            ]
+        }
+    }
 }
